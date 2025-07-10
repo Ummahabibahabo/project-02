@@ -10,11 +10,13 @@
    font-weight: 800px; 
 font-size: 45px;
 color: #181818;
+margin: 0 35px 0 238px;
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 106px 203px 80px 253px;
 }
 
 .nav-text{
@@ -34,6 +36,7 @@ nav ul li a{
 nav ul{
     display: flex;
     font-size: 20px;
+    align-items: center;
     /* margin: 35px; */
     /* margin-right: 50px; */
 }
@@ -44,6 +47,9 @@ nav ul{
     /* background-position: top left,bottom right; */
     background-position:bottom right,top left ;
     background-repeat: no-repeat;
+    max-width: 0 auto;
+    background-color:#FFF8F3 ;
+
     
 }
 .btn-primary{
@@ -86,8 +92,85 @@ nav ul{
     display: flex;
     /* align-items: center; */
     justify-content: space-between;
+    margin: 0 35px 0 238px;
 }
 .content{
     max-width: 585px;
     min-height: 356px;
+}
+
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+    align-items: center;
+}
+.section-description{
+    font-size: 18px;
+    color:#757575 ;
+}
+main{
+    max-width: 1134px;
+    background-color: #FFF8F3;
+    margin: 0 auto;
+}
+
+.about{
+    /* margin: 135px 200px; */
+    padding: 130px 230px;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 130px;
+    text-align: center;
+}
+.about-title{
+    background-color: #FFFFFF;
+    border: 2px solid black;
+    gap: 30px;
+    left: 1.8em;
+}
+
+.Personal-information{
+    display: flex;
+    justify-content: space-around;
+}
+.personal-title{
+    font-size: 20px;
+    color: #757575 ;
+}
+.personal-description{
+    font-size: 20px;
+    color:black ;
+}
+
+.skills-title{
+    font-weight: bold;
+    font-size: 35px;
+    color:#181818 ;
+}
+
+.skills-description{
+    font-size: 18px;
+    color:#757575 ;
+}
+.about-skills{
+    /* margin: 208px 343px 0px 343px; */
+    
+    /* background: none; */
+    text-align:center;
+}
+.extra-skills{
+    display: flex;
+    /* border-radius: 5px; */
+    gap: 24px;
+    padding: 104px 30px 30px 33px;
+}
+.skill-item{
+    border-radius: 5px;
+    box-shadow:0px 6px 50px 0px black ;
+    border-radius: 5px;
+    width: 267px;
+    height: 377px;
+    /* smargin: 104px 30px 30px 33px; */
+    text-align: left;
 }
